@@ -66,7 +66,8 @@ export const MODULOS: Modulo[] = [
           "Ferramentas de depuração no React Native",
           "Testes simples de funcionalidade"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Desenvolver uma aplicação simples que exiba uma lista de itens e permita adicionar novos itens.", itens: []}
     ]
   },
   {
@@ -121,7 +122,8 @@ export const MODULOS: Modulo[] = [
           "Implementação de gestos comuns (swipe, tap)",
           "Criação de botões e interações personalizadas"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Criar um aplicativo de receitas com navegação entre diferentes categorias e detalhes das receitas.", itens: []}
     ]
   },
   {
@@ -176,7 +178,8 @@ export const MODULOS: Modulo[] = [
           "Autenticação com APIs (Bearer tokens)",
           "Manipulação de dados recebidos de APIs"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Desenvolver um aplicativo de viagens que mostre destinos com base na localização do usuário e permita o upload de fotos dos locais visitados.", itens: []}
     ]
   },
   {
@@ -231,7 +234,8 @@ export const MODULOS: Modulo[] = [
           "Organização de estilos em grandes projetos",
           "Criação de bibliotecas de componentes estilizados"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Desenvolver um aplicativo de e-commerce com temas dinâmicos e layout responsivo para diferentes dispositivos.", itens: []}
     ]
   },
   {
@@ -286,7 +290,8 @@ export const MODULOS: Modulo[] = [
           "Monitoramento do estado da aplicação",
           "Otimização de performance com Redux"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Desenvolver uma aplicação de gerenciamento de tarefas com categorização, persistência e sincronização de dados entre diferentes dispositivos.", itens: []}
     ]
   },
   {
@@ -341,7 +346,8 @@ export const MODULOS: Modulo[] = [
           "Configuração de HTTPS para comunicação segura",
           "Autenticação multifator e segurança adicional"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Criar um aplicativo de gestão de usuários com autenticação, integração com banco de dados Firebase e envio de notificações.", itens: []}
     ]
   },
   {
@@ -396,7 +402,8 @@ export const MODULOS: Modulo[] = [
           "Configuração de AdMob e outras plataformas de anúncios",
           "Implementação de compras no aplicativo (in-app purchases)"
         ]
-      }
+      },
+      {titulo: "Projeto Prático: Publicar um aplicativo final desenvolvido durante o curso em uma das lojas de aplicativos, com monitoramento de performance e implementação de uma estratégia de monetização.", itens: []}
     ]
   }
 ]
