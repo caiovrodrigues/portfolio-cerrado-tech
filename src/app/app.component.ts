@@ -10,6 +10,30 @@ export class AppComponent {
 
   indexSlideActive = 0;
 
+  ngOnInit(){
+    const numb = document.querySelector(".numb");
+    let counter = 0;
+    setInterval(()=>{
+      if(counter == 5){
+        // clearInterval();
+      }else{
+        counter+=1;
+        numb!.textContent = counter + " anos";
+      }
+    }, 200);
+
+    const numb2 = document.querySelector(".numb2");
+    let counter2 = 0;
+    setInterval(()=>{
+      if(counter2 == 600){
+        // clearInterval();
+      }else{
+        counter2+=2;
+        numb2!.textContent =  "+" + counter2;
+      }
+    }, 1);
+  }
+
 
   avancarSlide(){
     this.indexSlideActive++;
